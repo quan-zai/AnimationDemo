@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C35E01F91D11007E005BD3AC /* hehe.png in Resources */ = {isa = PBXBuildFile; fileRef = C35E01F81D11007E005BD3AC /* hehe.png */; };
+		C35E01FB1D11023C005BD3AC /* nimei.png in Resources */ = {isa = PBXBuildFile; fileRef = C35E01FA1D11023C005BD3AC /* nimei.png */; };
+		C35E01FE1D1124D0005BD3AC /* CustomeDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = C35E01FD1D1124D0005BD3AC /* CustomeDrawingView.m */; };
+		C35E02011D1124F6005BD3AC /* CustomeDrawingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C35E02001D1124F6005BD3AC /* CustomeDrawingVC.m */; };
 		C3790B4C1D0FA3770032201F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3790B4B1D0FA3770032201F /* main.m */; };
 		C3790B4F1D0FA3770032201F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3790B4E1D0FA3770032201F /* AppDelegate.m */; };
-		C3790B521D0FA3770032201F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3790B511D0FA3770032201F /* ViewController.m */; };
 		C3790B551D0FA3770032201F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3790B531D0FA3770032201F /* Main.storyboard */; };
 		C3790B571D0FA3770032201F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3790B561D0FA3770032201F /* Assets.xcassets */; };
 		C3790B5A1D0FA3770032201F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3790B581D0FA3770032201F /* LaunchScreen.storyboard */; };
 		C3790B651D0FA3770032201F /* AnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3790B641D0FA3770032201F /* AnimationDemoTests.m */; };
 		C3790B701D0FA3770032201F /* AnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3790B6F1D0FA3770032201F /* AnimationDemoUITests.m */; };
+		C3790B7F1D0FA6130032201F /* CALayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C3790B7E1D0FA6130032201F /* CALayerVC.m */; };
+		C3790B811D0FD52D0032201F /* IMG_0053.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3790B801D0FD52D0032201F /* IMG_0053.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C35E01F81D11007E005BD3AC /* hehe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hehe.png; sourceTree = "<group>"; };
+		C35E01FA1D11023C005BD3AC /* nimei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nimei.png; sourceTree = "<group>"; };
+		C35E01FC1D1124D0005BD3AC /* CustomeDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomeDrawingView.h; sourceTree = "<group>"; };
+		C35E01FD1D1124D0005BD3AC /* CustomeDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomeDrawingView.m; sourceTree = "<group>"; };
+		C35E01FF1D1124F6005BD3AC /* CustomeDrawingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomeDrawingVC.h; sourceTree = "<group>"; };
+		C35E02001D1124F6005BD3AC /* CustomeDrawingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomeDrawingVC.m; sourceTree = "<group>"; };
 		C3790B471D0FA3770032201F /* AnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3790B4B1D0FA3770032201F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C3790B4D1D0FA3770032201F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C3790B4E1D0FA3770032201F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C3790B501D0FA3770032201F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C3790B511D0FA3770032201F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C3790B541D0FA3770032201F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3790B561D0FA3770032201F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3790B591D0FA3770032201F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +60,9 @@
 		C3790B6B1D0FA3770032201F /* AnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3790B6F1D0FA3770032201F /* AnimationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationDemoUITests.m; sourceTree = "<group>"; };
 		C3790B711D0FA3770032201F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3790B7D1D0FA6130032201F /* CALayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALayerVC.h; sourceTree = "<group>"; };
+		C3790B7E1D0FA6130032201F /* CALayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALayerVC.m; sourceTree = "<group>"; };
+		C3790B801D0FD52D0032201F /* IMG_0053.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0053.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +115,15 @@
 			children = (
 				C3790B4D1D0FA3770032201F /* AppDelegate.h */,
 				C3790B4E1D0FA3770032201F /* AppDelegate.m */,
-				C3790B501D0FA3770032201F /* ViewController.h */,
-				C3790B511D0FA3770032201F /* ViewController.m */,
+				C3790B7D1D0FA6130032201F /* CALayerVC.h */,
+				C3790B7E1D0FA6130032201F /* CALayerVC.m */,
+				C35E01FF1D1124F6005BD3AC /* CustomeDrawingVC.h */,
+				C35E02001D1124F6005BD3AC /* CustomeDrawingVC.m */,
+				C35E01FC1D1124D0005BD3AC /* CustomeDrawingView.h */,
+				C35E01FD1D1124D0005BD3AC /* CustomeDrawingView.m */,
+				C3790B801D0FD52D0032201F /* IMG_0053.jpg */,
+				C35E01FA1D11023C005BD3AC /* nimei.png */,
+				C35E01F81D11007E005BD3AC /* hehe.png */,
 				C3790B531D0FA3770032201F /* Main.storyboard */,
 				C3790B561D0FA3770032201F /* Assets.xcassets */,
 				C3790B581D0FA3770032201F /* LaunchScreen.storyboard */,
@@ -243,9 +262,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C35E01FB1D11023C005BD3AC /* nimei.png in Resources */,
 				C3790B5A1D0FA3770032201F /* LaunchScreen.storyboard in Resources */,
+				C35E01F91D11007E005BD3AC /* hehe.png in Resources */,
 				C3790B571D0FA3770032201F /* Assets.xcassets in Resources */,
 				C3790B551D0FA3770032201F /* Main.storyboard in Resources */,
+				C3790B811D0FD52D0032201F /* IMG_0053.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +292,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3790B521D0FA3770032201F /* ViewController.m in Sources */,
 				C3790B4F1D0FA3770032201F /* AppDelegate.m in Sources */,
 				C3790B4C1D0FA3770032201F /* main.m in Sources */,
+				C35E02011D1124F6005BD3AC /* CustomeDrawingVC.m in Sources */,
+				C35E01FE1D1124D0005BD3AC /* CustomeDrawingView.m in Sources */,
+				C3790B7F1D0FA6130032201F /* CALayerVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +522,7 @@
 				C3790B761D0FA3770032201F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3790B771D0FA3770032201F /* Build configuration list for PBXNativeTarget "AnimationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +531,7 @@
 				C3790B791D0FA3770032201F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C3790B7A1D0FA3770032201F /* Build configuration list for PBXNativeTarget "AnimationDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +540,7 @@
 				C3790B7C1D0FA3770032201F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

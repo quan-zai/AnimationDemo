@@ -8,6 +8,10 @@
 
 #import "AppDelegate.h"
 
+#import "CALayerVC.h"
+
+#import "CustomeDrawingVC.h"
+
 @interface AppDelegate ()
 
 @end
@@ -16,7 +20,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    CALayerVC *vc = [[CALayerVC alloc] init];
+    
+    CustomeDrawingVC *customeVC = [[CustomeDrawingVC alloc] init];
+    
+    self.window.rootViewController = customeVC;
+    
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 

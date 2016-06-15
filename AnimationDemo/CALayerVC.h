@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CALayerVC.h
 //  AnimationDemo
 //
 //  Created by 权仔 on 16/6/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CALayerVC : UIViewController
 
 @end
-
