@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		C35E01F91D11007E005BD3AC /* hehe.png in Resources */ = {isa = PBXBuildFile; fileRef = C35E01F81D11007E005BD3AC /* hehe.png */; };
 		C35E01FB1D11023C005BD3AC /* nimei.png in Resources */ = {isa = PBXBuildFile; fileRef = C35E01FA1D11023C005BD3AC /* nimei.png */; };
-		C35E01FE1D1124D0005BD3AC /* CustomeDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = C35E01FD1D1124D0005BD3AC /* CustomeDrawingView.m */; };
 		C35E02011D1124F6005BD3AC /* CustomeDrawingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C35E02001D1124F6005BD3AC /* CustomeDrawingVC.m */; };
 		C35E02051D113CA9005BD3AC /* min.png in Resources */ = {isa = PBXBuildFile; fileRef = C35E02021D113CA9005BD3AC /* min.png */; };
 		C35E02061D113CA9005BD3AC /* hour.png in Resources */ = {isa = PBXBuildFile; fileRef = C35E02031D113CA9005BD3AC /* hour.png */; };
@@ -24,6 +23,7 @@
 		C3790B701D0FA3770032201F /* AnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3790B6F1D0FA3770032201F /* AnimationDemoUITests.m */; };
 		C3790B7F1D0FA6130032201F /* CALayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C3790B7E1D0FA6130032201F /* CALayerVC.m */; };
 		C3790B811D0FD52D0032201F /* IMG_0053.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C3790B801D0FD52D0032201F /* IMG_0053.jpg */; };
+		C37E87B21D12797300448223 /* VisualEffectsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C37E87B11D12797300448223 /* VisualEffectsVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +46,6 @@
 /* Begin PBXFileReference section */
 		C35E01F81D11007E005BD3AC /* hehe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hehe.png; sourceTree = "<group>"; };
 		C35E01FA1D11023C005BD3AC /* nimei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nimei.png; sourceTree = "<group>"; };
-		C35E01FC1D1124D0005BD3AC /* CustomeDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomeDrawingView.h; sourceTree = "<group>"; };
-		C35E01FD1D1124D0005BD3AC /* CustomeDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomeDrawingView.m; sourceTree = "<group>"; };
 		C35E01FF1D1124F6005BD3AC /* CustomeDrawingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomeDrawingVC.h; sourceTree = "<group>"; };
 		C35E02001D1124F6005BD3AC /* CustomeDrawingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomeDrawingVC.m; sourceTree = "<group>"; };
 		C35E02021D113CA9005BD3AC /* min.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = min.png; sourceTree = "<group>"; };
@@ -71,6 +69,8 @@
 		C3790B7D1D0FA6130032201F /* CALayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CALayerVC.h; sourceTree = "<group>"; };
 		C3790B7E1D0FA6130032201F /* CALayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CALayerVC.m; sourceTree = "<group>"; };
 		C3790B801D0FD52D0032201F /* IMG_0053.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0053.jpg; sourceTree = "<group>"; };
+		C37E87B01D12797300448223 /* VisualEffectsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisualEffectsVC.h; sourceTree = "<group>"; };
+		C37E87B11D12797300448223 /* VisualEffectsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisualEffectsVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,8 +127,8 @@
 				C3790B7E1D0FA6130032201F /* CALayerVC.m */,
 				C35E01FF1D1124F6005BD3AC /* CustomeDrawingVC.h */,
 				C35E02001D1124F6005BD3AC /* CustomeDrawingVC.m */,
-				C35E01FC1D1124D0005BD3AC /* CustomeDrawingView.h */,
-				C35E01FD1D1124D0005BD3AC /* CustomeDrawingView.m */,
+				C37E87B01D12797300448223 /* VisualEffectsVC.h */,
+				C37E87B11D12797300448223 /* VisualEffectsVC.m */,
 				C35E02081D114334005BD3AC /* clock.png */,
 				C35E02021D113CA9005BD3AC /* min.png */,
 				C35E02031D113CA9005BD3AC /* hour.png */,
@@ -308,10 +308,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C37E87B21D12797300448223 /* VisualEffectsVC.m in Sources */,
 				C3790B4F1D0FA3770032201F /* AppDelegate.m in Sources */,
 				C3790B4C1D0FA3770032201F /* main.m in Sources */,
 				C35E02011D1124F6005BD3AC /* CustomeDrawingVC.m in Sources */,
-				C35E01FE1D1124D0005BD3AC /* CustomeDrawingView.m in Sources */,
 				C3790B7F1D0FA6130032201F /* CALayerVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -12,6 +12,8 @@
 
 #import "CustomeDrawingVC.h"
 
+#import "VisualEffectsVC.h"
+
 @interface AppDelegate ()
 
 @end
@@ -27,8 +29,10 @@
     CALayerVC *vc = [[CALayerVC alloc] init];
     
     CustomeDrawingVC *customeVC = [[CustomeDrawingVC alloc] init];
+   
+    VisualEffectsVC *effectsVC = [[VisualEffectsVC alloc] init];
     
-    self.window.rootViewController = customeVC;
+    self.window.rootViewController = effectsVC;
     
     [self.window makeKeyAndVisible];
     

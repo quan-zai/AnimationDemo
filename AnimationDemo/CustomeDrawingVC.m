@@ -20,6 +20,10 @@
 
 @property (nonatomic, weak) NSTimer *timer;
 
+@property (nonatomic, strong) UIView *blueView;
+
+@property (nonatomic, strong) CALayer *layer;
+
 @end
 
 @implementation CustomeDrawingVC
@@ -119,10 +123,48 @@
 
 - (void)hitTesting
 {
+    _blueView = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    _blueView.backgroundColor = [UIColor blueColor];
+    
+    [self.view addSubview:_blueView];
+    
+    _layer = [[CALayer alloc] init];
+    _layer.position = CGPointMake(50, 50);
+    _layer.bounds = CGRectMake(0, 0, 50, 50);
+    _layer.backgroundColor = [UIColor greenColor].CGColor;
+    
+    [_blueView.layer addSublayer:_layer];
+    
     /**
      *  Hit Testing
      *
      */
+}
+
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    //get touch position relative to main view
+    CGPoint point = [[touches anyObject] locationInView:self.view];
+    //convert point to the white layer's coordinates
+    point = [self.blueView.layer convertPoint:point fromLayer:self.view.layer];
+    //get layer using containsPoint:
+    if ([self.blueView.layer containsPoint:point]) {
+        //convert point to blueLayer’s coordinates
+        point = [self.layer convertPoint:point fromLayer:self.blueView.layer];
+        if ([self.layer containsPoint:point]) {
+            [[[UIAlertView alloc] initWithTitle:@"InsideLayer"
+                                        message:nil
+                                       delegate:nil
+                              cancelButtonTitle:@"OK"
+                              otherButtonTitles:nil] show];
+        } else {
+            [[[UIAlertView alloc] initWithTitle:@"Inside blue View layer"
+                                        message:nil
+                                       delegate:nil
+                              cancelButtonTitle:@"OK"
+                              otherButtonTitles:nil] show];
+        }
+    }
 }
 
 - (void)tick
