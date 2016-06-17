@@ -101,10 +101,10 @@
      
      CALayer给不同坐标系之间的图层转换提供了一些工具类方法：
      
-     - (CGPoint)convertPoint:(CGPoint)point fromLayer:(CALayer *)layer;
-     - (CGPoint)convertPoint:(CGPoint)point toLayer:(CALayer *)layer;
-     - (CGRect)convertRect:(CGRect)rect fromLayer:(CALayer *)layer;
-     - (CGRect)convertRect:(CGRect)rect toLayer:(CALayer *)layer;
+     - (CGPoint)convertPoint:(CGPoint)point fromLayer:(CALayer *)layer;    将point点坐标从fromLayer的坐标系转到现在的图层坐标系中
+     - (CGPoint)convertPoint:(CGPoint)point toLayer:(CALayer *)layer;      将point点坐标从当前的坐标系转到toLayer的图层坐标系中
+     - (CGRect)convertRect:(CGRect)rect fromLayer:(CALayer *)layer;        将rect坐标从fromLayer的坐标系转到现在的图层坐标系中
+     - (CGRect)convertRect:(CGRect)rect toLayer:(CALayer *)layer;          将rect坐标从当前的坐标系转到toLayer的图层坐标系中
      这些方法可以把定义在一个图层坐标系下的点或者矩形转换成另一个图层坐标系下的点或者矩形
      *
      */

@@ -14,6 +14,8 @@
 
 #import "VisualEffectsVC.h"
 
+#import "TransformVC.h"
+
 @interface AppDelegate ()
 
 @end
@@ -32,7 +34,9 @@
    
     VisualEffectsVC *effectsVC = [[VisualEffectsVC alloc] init];
     
-    self.window.rootViewController = effectsVC;
+    TransformVC *transformVC = [[TransformVC alloc] init];
+    
+    self.window.rootViewController = transformVC;
     
     [self.window makeKeyAndVisible];
     

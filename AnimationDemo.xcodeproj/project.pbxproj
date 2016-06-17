@@ -14,6 +14,7 @@
 		C35E02061D113CA9005BD3AC /* hour.png in Resources */ = {isa = PBXBuildFile; fileRef = C35E02031D113CA9005BD3AC /* hour.png */; };
 		C35E02071D113CA9005BD3AC /* sec.png in Resources */ = {isa = PBXBuildFile; fileRef = C35E02041D113CA9005BD3AC /* sec.png */; };
 		C35E02091D114334005BD3AC /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = C35E02081D114334005BD3AC /* clock.png */; };
+		C367FA0F1D139A8D0051F34D /* TransformVC.m in Sources */ = {isa = PBXBuildFile; fileRef = C367FA0E1D139A8D0051F34D /* TransformVC.m */; };
 		C3790B4C1D0FA3770032201F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3790B4B1D0FA3770032201F /* main.m */; };
 		C3790B4F1D0FA3770032201F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3790B4E1D0FA3770032201F /* AppDelegate.m */; };
 		C3790B551D0FA3770032201F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3790B531D0FA3770032201F /* Main.storyboard */; };
@@ -52,6 +53,8 @@
 		C35E02031D113CA9005BD3AC /* hour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hour.png; sourceTree = "<group>"; };
 		C35E02041D113CA9005BD3AC /* sec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sec.png; sourceTree = "<group>"; };
 		C35E02081D114334005BD3AC /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		C367FA0D1D139A8D0051F34D /* TransformVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformVC.h; sourceTree = "<group>"; };
+		C367FA0E1D139A8D0051F34D /* TransformVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformVC.m; sourceTree = "<group>"; };
 		C3790B471D0FA3770032201F /* AnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3790B4B1D0FA3770032201F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C3790B4D1D0FA3770032201F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -129,6 +132,8 @@
 				C35E02001D1124F6005BD3AC /* CustomeDrawingVC.m */,
 				C37E87B01D12797300448223 /* VisualEffectsVC.h */,
 				C37E87B11D12797300448223 /* VisualEffectsVC.m */,
+				C367FA0D1D139A8D0051F34D /* TransformVC.h */,
+				C367FA0E1D139A8D0051F34D /* TransformVC.m */,
 				C35E02081D114334005BD3AC /* clock.png */,
 				C35E02021D113CA9005BD3AC /* min.png */,
 				C35E02031D113CA9005BD3AC /* hour.png */,
@@ -311,6 +316,7 @@
 				C37E87B21D12797300448223 /* VisualEffectsVC.m in Sources */,
 				C3790B4F1D0FA3770032201F /* AppDelegate.m in Sources */,
 				C3790B4C1D0FA3770032201F /* main.m in Sources */,
+				C367FA0F1D139A8D0051F34D /* TransformVC.m in Sources */,
 				C35E02011D1124F6005BD3AC /* CustomeDrawingVC.m in Sources */,
 				C3790B7F1D0FA6130032201F /* CALayerVC.m in Sources */,
 			);
