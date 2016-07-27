@@ -16,6 +16,8 @@
 
 #import "TransformVC.h"
 
+#import "specialLayerVC.h"
+
 @interface AppDelegate ()
 
 @end
@@ -36,7 +38,9 @@
     
     TransformVC *transformVC = [[TransformVC alloc] init];
     
-    self.window.rootViewController = transformVC;
+    SpecialLayerVC *specialVC = [[SpecialLayerVC alloc] init];
+    
+    self.window.rootViewController = specialVC;
     
     [self.window makeKeyAndVisible];
     
